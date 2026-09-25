@@ -63,7 +63,7 @@ class HeadroomConfig:
             current state (for example, a long-lived process that
             persisted it before restarting on the same host). Not a
             substitute for coordinating state across independent
-            processes or instances — see PLANNING.md.
+            processes or instances.
     """
 
     safety_margin_requests: int = 0
